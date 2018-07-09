@@ -14,6 +14,10 @@
 		2336B7FB20F3403300008F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2336B7F920F3403300008F69 /* LaunchScreen.storyboard */; };
 		2336B80620F3403400008F69 /* summerpractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B80520F3403400008F69 /* summerpractTests.swift */; };
 		2336B81120F3403400008F69 /* summerpractUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B81020F3403400008F69 /* summerpractUITests.swift */; };
+		2336B81F20F3433F00008F69 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B81E20F3433F00008F69 /* MyTableViewController.swift */; };
+		2336B82320F3583300008F69 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82220F3583300008F69 /* user.swift */; };
+		2336B82720F35ED300008F69 /* nevVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82620F35ED300008F69 /* nevVc.swift */; };
+		2336B82920F3670F00008F69 /* DetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82820F3670F00008F69 /* DetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2336B80C20F3403400008F69 /* summerpractUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summerpractUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2336B81020F3403400008F69 /* summerpractUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summerpractUITests.swift; sourceTree = "<group>"; };
 		2336B81220F3403400008F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2336B81E20F3433F00008F69 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		2336B82220F3583300008F69 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		2336B82620F35ED300008F69 /* nevVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nevVc.swift; sourceTree = "<group>"; };
+		2336B82820F3670F00008F69 /* DetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				2336B7F020F3402C00008F69 /* AppDelegate.swift */,
 				2336B7F220F3402C00008F69 /* ViewController.swift */,
 				2336B7F420F3402C00008F69 /* Main.storyboard */,
+				2336B81E20F3433F00008F69 /* MyTableViewController.swift */,
 				2336B7F720F3403300008F69 /* Assets.xcassets */,
 				2336B7F920F3403300008F69 /* LaunchScreen.storyboard */,
 				2336B7FC20F3403300008F69 /* Info.plist */,
+				2336B82220F3583300008F69 /* user.swift */,
+				2336B82620F35ED300008F69 /* nevVc.swift */,
+				2336B82820F3670F00008F69 /* DetViewController.swift */,
 			);
 			path = summerpract;
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2336B82320F3583300008F69 /* user.swift in Sources */,
 				2336B7F320F3402C00008F69 /* ViewController.swift in Sources */,
+				2336B82720F35ED300008F69 /* nevVc.swift in Sources */,
+				2336B82920F3670F00008F69 /* DetViewController.swift in Sources */,
+				2336B81F20F3433F00008F69 /* MyTableViewController.swift in Sources */,
 				2336B7F120F3402C00008F69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sa.summerpract;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sa.summerpract;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
