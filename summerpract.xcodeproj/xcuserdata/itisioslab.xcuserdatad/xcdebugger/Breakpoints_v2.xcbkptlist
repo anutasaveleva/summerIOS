@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "summerpract/MyTableViewController.swift"
-            timestampString = "552829905.666398"
+            timestampString = "552915627.212319"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>

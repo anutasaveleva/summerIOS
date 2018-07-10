@@ -18,6 +18,9 @@
 		2336B82320F3583300008F69 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82220F3583300008F69 /* user.swift */; };
 		2336B82720F35ED300008F69 /* nevVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82620F35ED300008F69 /* nevVc.swift */; };
 		2336B82920F3670F00008F69 /* DetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2336B82820F3670F00008F69 /* DetViewController.swift */; };
+		235263AC20F49FEA00625012 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235263AB20F49FEA00625012 /* SettingsViewController.swift */; };
+		235263AE20F4A9AE00625012 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235263AD20F4A9AE00625012 /* SortViewController.swift */; };
+		235263B420F4CECA00625012 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235263B320F4CECA00625012 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		2336B82220F3583300008F69 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		2336B82620F35ED300008F69 /* nevVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nevVc.swift; sourceTree = "<group>"; };
 		2336B82820F3670F00008F69 /* DetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetViewController.swift; sourceTree = "<group>"; };
+		235263AB20F49FEA00625012 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		235263AD20F4A9AE00625012 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		235263B320F4CECA00625012 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				2336B82220F3583300008F69 /* user.swift */,
 				2336B82620F35ED300008F69 /* nevVc.swift */,
 				2336B82820F3670F00008F69 /* DetViewController.swift */,
+				235263AB20F49FEA00625012 /* SettingsViewController.swift */,
+				235263AD20F4A9AE00625012 /* SortViewController.swift */,
+				235263B320F4CECA00625012 /* MyTableViewCell.swift */,
 			);
 			path = summerpract;
 			sourceTree = "<group>";
@@ -270,7 +279,10 @@
 			files = (
 				2336B82320F3583300008F69 /* user.swift in Sources */,
 				2336B7F320F3402C00008F69 /* ViewController.swift in Sources */,
+				235263AE20F4A9AE00625012 /* SortViewController.swift in Sources */,
+				235263AC20F49FEA00625012 /* SettingsViewController.swift in Sources */,
 				2336B82720F35ED300008F69 /* nevVc.swift in Sources */,
+				235263B420F4CECA00625012 /* MyTableViewCell.swift in Sources */,
 				2336B82920F3670F00008F69 /* DetViewController.swift in Sources */,
 				2336B81F20F3433F00008F69 /* MyTableViewController.swift in Sources */,
 				2336B7F120F3402C00008F69 /* AppDelegate.swift in Sources */,
